@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="font-inter">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML Page</title>
+    <title>Knowledge Vault</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/card.css">
+
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body class="font-inter">
 <header>
-    <nav class = "navbar"><ul>
-        <li><img src = "logo.svg" alt = "logo"></li>
-        <li><a href="features.html">Features</a></li>
-        <li><a href="howItWorks.html">How It Works</a></li>
-        <li><a href="whyItsDifferent.html">Why It's Different</a></li>
-        <li><a href="earlyAccess.html">Get Early Access</a></li>
-    </ul></nav>
+    <nav class = "navbar">
+        <div class = "logo"><img src="assets/logo-navbar.png" alt="Logo" class="logo">
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="">Features</a></li>
+                <li><a href="">How It Works</a></li>
+                <li><a href="">Why Its different</a></li>
+            </ul>     
+        </div>
+        <button class = "btn-primary">Get Early Access</button>
+    </nav>
 </header>
+<main>
+    <hero>
+        <img src="assets/hero-bg.png" alt="Hero Image" class="hero-image">
+        <div class = "hero-content">
+            <div class = "hero-text">
+                <div>
+                    <img src="assets/live-icon.png" alt="early access icon" class ="">
+                    <span class = "early-access">Early Access Now Open</span>
+                </div>
+                <h1>Structured thinking,not just note-taking.</h1>
+                <p>A private space to store notes, links, and learning summaries — designed to help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
+            </div>
+            <div class = "hero-btn">
+                <div class = "btn-primary">
+                    <span>Start Building Your Vault</span>
+                    <img src="assets/ArrowRight.png" alt="arrow right icon" class ="btn-icon">
+                </div>
+                <div class = "btn-secondary">
+                    <img src="assets/Play.png" alt="play circle icon" class ="btn-icon">
+                    <span>See How It Works</span>
+                </div>
+            </div>
+        </div>
+    </hero>
+</main>
+<footer></footer>
 </body>
 </html>
