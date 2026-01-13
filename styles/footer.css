@@ -1,6 +1,96 @@
 footer{
-    padding-left:  120px;
-    padding-right: 120px;
-    padding-top: 120px;
-    padding-bottom:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 120px 30px 120px 120px;
+
+    width: 100%;
+    height: fit-content;
+
+    background-color: #001931;
+    color: white;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: fit-content;
+}
+.footer-copywright{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    width: 100%;
+    height: fit-content;
+    gap: 30px;
+}
+
+.footer-links-description{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 350px;
+    height: fit-content;
+}
+.footer-links-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 220px;
+    height: fit-content;
+}
+
+.footer-links-list p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+    width: 100%;
+    height: fit-content;
+
+    color: white;
+}
+
+.footer-links-list li{
+    
+    list-style: none;
+    cursor: pointer;
+
+    align-items: left;
+    justify-content: left;
+    
+}
+/* pls add svg icons */
+.footer-links-list ul{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    gap: 16px;
+}
+
+.footer-copywright{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: fit-content;
+    
+
+    border-top: 1px solid white;
+}
+
+.footer-hr{
+    border: 0; 
+    height: 1px; 
+    background-color: #E5E7EB; /* Set the color */
+    margin: 1em 0;
 }
