@@ -27,3 +27,11 @@ nav ul {
     font-weight: medium;
     /* add text hover effect */
 }
+
+.nav-link:hover {
+    color: #469165;
+    transition: color 0.2s ease;
+}
+
+
+
