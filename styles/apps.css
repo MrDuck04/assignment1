@@ -1,0 +1,104 @@
+.apps-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding: 120px;
+
+    width: 100%;
+    height: fit-content;
+
+    background-color: white;
+}
+
+.apps-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    width: 100%;
+    height: fit-content;
+}
+
+.apps-image{
+    width: 600px;
+    height: 600px;
+
+    border-radius: 12px;
+}
+
+.apps-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start; /*why?*/
+    gap: 40px;
+
+    width: 100%;
+    height: fit-content;
+
+    padding: 0;
+    margin: 0;
+}
+
+.apps-soltion-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    height: fit-content;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+.apps-solution-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    /* text-align: left; */
+    text-transform: capitalize;
+}
+
+.apps-solution-subtitle{
+    font-size: 16px;
+    font-weight: 300;
+    color: #469165;
+    /* text-align: left; 
+    line-height: 20; */
+    text-transform: uppercase;
+}
+
+.apps-solution-description{
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #627382;
+    /* text-align: left; */
+
+    width: 100%;
+    height: fit-content;
+}
+
+.apps-solution-points{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 100%;
+    height: fit-content;
+}
+.apps-solution-points li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+
+    width: 100%;
+    height: fit-content;
+}
