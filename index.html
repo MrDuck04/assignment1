@@ -16,44 +16,73 @@
 
 </head>
 <body class="font-inter">
-<header>
-    <nav class = "navbar">
-        <div class = "logo"><img src="assets/logo-navbar.png" alt="Logo" class="logo">
+<header class = "navbar">
+    <nav class = "nav-container">
+        <div class = "logo-navbar">
+            <img src="assets/logo-navbar.png" alt="Logo" class="logo-image">
         </div>
+
         <div class="nav-links">
             <ul>
-                <li><a href="">Features</a></li>
-                <li><a href="">How It Works</a></li>
-                <li><a href="">Why Its different</a></li>
+                <li><a href="" class = "nav-link">Features</a></li>
+                <li><a href="" class = "nav-link">How It Works</a></li>
+                <li><a href="" class = "nav-link">Why Its different</a></li>
             </ul>     
         </div>
+
         <button class = "btn-primary">Get Early Access</button>
     </nav>
 </header>
 <main>
     <hero>
+        <div class = "hero-overlay">
         <img src="assets/hero-bg.png" alt="Hero Image" class="hero-image">
+        </div>
         <div class = "hero-content">
             <div class = "hero-text">
-                <div>
+                <div class = "hero-badge">
                     <img src="assets/live-icon.png" alt="early access icon" class ="">
-                    <span class = "early-access">Early Access Now Open</span>
+                    <span>Early Access Now Open</span>
                 </div>
-                <h1>Structured thinking,not just note-taking.</h1>
-                <p>A private space to store notes, links, and learning summaries — designed to help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
+                <h1 class = "hero-title">
+                    Structured Thinking,<br>
+                    <span class = "highlight">Not Just Note-Taking.</span>
+                </h1>
+                <p class = "hero-description">
+                    A private space to store notes, links, and learning summaries — designed to help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
             </div>
-            <div class = "hero-btn">
-                <div class = "btn-primary">
+            <!-- Buttons -->
+            <div class = "hero-actions">
+                <a href="#" class = "btn-primary">
                     <span>Start Building Your Vault</span>
                     <img src="assets/ArrowRight.png" alt="arrow right icon" class ="btn-icon">
-                </div>
-                <div class = "btn-secondary">
+                </a>
+                <a href="#" class = "btn-secondary">
                     <img src="assets/Play.png" alt="play circle icon" class ="btn-icon">
                     <span>See How It Works</span>
-                </div>
+                </a>
             </div>
         </div>
     </hero>
+    <section class="cards-section">
+        <div class = "cards-description"></div>
+        <div class = "cards-container">
+            <div class = "card">
+                <img src="assets/icon-organize.png" alt="organize icon" class ="card-icon">
+                <h3 class = "card-title">Organize Your Learning</h3>
+                <p class = "card-description">Easily categorize and structure your notes to create a personalized knowledge system that works for you.</p>
+            </div>
+            <div class = "card">
+                <img src="assets/icon-connect.png" alt="connect icon" class ="card-icon">
+                <h3 class = "card-title">Connect Ideas</h3>
+                <p class = "card-description">Link related concepts and insights to foster deeper understanding and facilitate knowledge retention.</p>
+            </div>
+            <div class = "card">
+                <img src="assets/icon-focus.png" alt="focus icon" class ="card-icon">
+                <h3 class = "card-title">Enhance Focus</h3>
+                <p class = "card-description">Minimize distractions and create a dedicated space for focused learning and reflection.</p>
+            </div>
+    </section>
 </main>
 <footer></footer>
 </body>
