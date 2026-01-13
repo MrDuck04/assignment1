@@ -41,13 +41,22 @@ footer{
 .footer-links-list{
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-start;
+
     gap: 16px;
 
     width: 220px;
     height: fit-content;
 }
 
+.footer-links-list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: fit-content;
+}
 .footer-links-list p{
     font-size: 20px;
     font-weight: 500;
