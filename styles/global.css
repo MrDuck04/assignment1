@@ -45,9 +45,9 @@ a{
 }
 
 .btn-primary:hover {
-    background-color: white;
-    color: #469165;
-    border: 1px solid #469165;
+    background-color: #55af7b;
+    color: white;
+    
     transition: color 0.2s ease;
 }
   
